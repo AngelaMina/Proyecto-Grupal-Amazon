@@ -4,13 +4,13 @@
 
 ### AMAZON
 
-![logoamazon] (Imagenes\Logoamazon.PNG)
+![logoamazon] (https://github.com/AngelaMina/Proyecto-Grupal-Amazon/blob/main/Imagenes/Logoamazon.PNG)
 
 Amazon, un líder indiscutible en innovación y satisfacción del cliente, busca mantener su posición destacada en el mercado estadounidense al colaborar con nuestra consultora. Este proyecto aprovecha los datos históricos de Amazon, incluyendo millones de reseñas y metadatos, para impulsar futuras ventas y mejoras. Nuestra misión es fusionar la analítica de ventas y reseñas con la inteligencia artificial, creando un sistema de recomendación que mejore la experiencia del cliente y aumente las ventas. Este sistema personalizado se basa en datos de usuario y utiliza avanzados análisis de sentimientos y modelos inteligentes.
 
 En un mundo donde los datos son esenciales, estamos construyendo una arquitectura de datos sólida. Con pipelines eficientes y un dashboard informativo, permitimos decisiones informadas, incluso al manejar grandes volúmenes de datos. Nos enfocamos en la categoría hogar, considerada clave para aumentar las ventas, y adaptamos nuestras estrategias según las tendencias del mercado. Este proyecto promete innovación y éxito en un mercado competitivo.
 
-![logoconsultoria] (Imagenes\LogoconsultoraPNG.PNG)
+![logoconsultoria] (https://github.com/AngelaMina/Proyecto-Grupal-Amazon/blob/main/Imagenes/LogoconsultoraPNG.PNG)
 
 ## OBJETIVOS
 
@@ -38,18 +38,18 @@ Desarrollar y desplegar un sistema de recomendación de productos basados en an�
 
 •	Amazon
 
-	Descripción: Amazon es el cliente principal y el patrocinador del proyecto. Esta interesado en obtener información valiosa de los datos históricos para mejorar sus estrategias de ventas y retención de clientes.
-	Responsabilidades: Proporcionar acceso a los datos, definir requisitos y expectativas, colaborar en la implementación de las recomendaciones resultantes
+- Descripción: Amazon es el cliente principal y el patrocinador del proyecto. Esta interesado en obtener información valiosa de los datos históricos para mejorar sus estrategias de ventas y retención de clientes.
+- Responsabilidades: Proporcionar acceso a los datos, definir requisitos y expectativas, colaborar en la implementación de las recomendaciones resultantes
 
 •	Usuarios Finales
 
-	Descripción: Los usuarios finales son los clientes de Amazon que se beneficiaran directamente de las recomendaciones de productos. Esto incluye a los compradores en línea que utilizan la plataforma de Amazon para realizar las compras.
-	Responsabilidades: Proporcionar datos en forma de reseñas y patrones de compra, así como interactuar con los sistemas de recomendación una vez implementado. Sus comentarios y reacciones son esenciales para evaluar la eficiencia del sistema.
+- Descripción: Los usuarios finales son los clientes de Amazon que se beneficiaran directamente de las recomendaciones de productos. Esto incluye a los compradores en línea que utilizan la plataforma de Amazon para realizar las compras.
+- Responsabilidades: Proporcionar datos en forma de reseñas y patrones de compra, así como interactuar con los sistemas de recomendación una vez implementado. Sus comentarios y reacciones son esenciales para evaluar la eficiencia del sistema.
 
 •	Consultora (nosotros):
 
-	Descripción: Nuestra consultora es la entidad responsable de la ejecución del proyecto. Tenemos la responsabilidad de diseñar, desarrollar e implementar el sistema de recomendación y entregar informes y resultados a Amazon.
-	Responsabilidades: Planificar y ejecutar el proyecto de acuerdo con los requisitos establecidos, gestionar recursos, garantizar la calidad de los entregables y cumplir con los plazos. 
+- Descripción: Nuestra consultora es la entidad responsable de la ejecución del proyecto. Tenemos la responsabilidad de diseñar, desarrollar e implementar el sistema de recomendación y entregar informes y resultados a Amazon.
+- Responsabilidades: Planificar y ejecutar el proyecto de acuerdo con los requisitos establecidos, gestionar recursos, garantizar la calidad de los entregables y cumplir con los plazos. 
 
 
 

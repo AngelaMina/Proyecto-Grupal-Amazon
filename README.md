@@ -12,7 +12,9 @@ Amazon, un líder indiscutible en innovación y satisfacción del cliente, busca
 
 En un mundo donde los datos son esenciales, estamos construyendo una arquitectura de datos sólida. Con pipelines eficientes y un dashboard informativo, permitimos decisiones informadas, incluso al manejar grandes volúmenes de datos. Nos enfocamos en la categoría hogar, considerada clave para aumentar las ventas, y adaptamos nuestras estrategias según las tendencias del mercado. Este proyecto promete innovación y éxito en un mercado competitivo.
 
-![logoconsultoria](https://github.com/AngelaMina/Proyecto-Grupal-Amazon/blob/main/Imagenes/LogoconsultoraPNG.PNG)
+<div align="center">
+  <img src="https://github.com/AngelaMina/Proyecto-Grupal-Amazon/blob/main/Imagenes/LogoconsultoraPNG.PNG" alt="logoconsultoria">
+</div>
 
 ## OBJETIVOS
 

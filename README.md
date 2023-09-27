@@ -4,13 +4,13 @@
 
 ### AMAZON
 
-![logoamazon] (https://github.com/AngelaMina/Proyecto-Grupal-Amazon/blob/main/Imagenes/Logoamazon.PNG)
+![logoamazon](https://github.com/AngelaMina/Proyecto-Grupal-Amazon/blob/main/Imagenes/Logoamazon.PNG)
 
 Amazon, un líder indiscutible en innovación y satisfacción del cliente, busca mantener su posición destacada en el mercado estadounidense al colaborar con nuestra consultora. Este proyecto aprovecha los datos históricos de Amazon, incluyendo millones de reseñas y metadatos, para impulsar futuras ventas y mejoras. Nuestra misión es fusionar la analítica de ventas y reseñas con la inteligencia artificial, creando un sistema de recomendación que mejore la experiencia del cliente y aumente las ventas. Este sistema personalizado se basa en datos de usuario y utiliza avanzados análisis de sentimientos y modelos inteligentes.
 
 En un mundo donde los datos son esenciales, estamos construyendo una arquitectura de datos sólida. Con pipelines eficientes y un dashboard informativo, permitimos decisiones informadas, incluso al manejar grandes volúmenes de datos. Nos enfocamos en la categoría hogar, considerada clave para aumentar las ventas, y adaptamos nuestras estrategias según las tendencias del mercado. Este proyecto promete innovación y éxito en un mercado competitivo.
 
-![logoconsultoria] (https://github.com/AngelaMina/Proyecto-Grupal-Amazon/blob/main/Imagenes/LogoconsultoraPNG.PNG)
+![logoconsultoria](https://github.com/AngelaMina/Proyecto-Grupal-Amazon/blob/main/Imagenes/LogoconsultoraPNG.PNG)
 
 ## OBJETIVOS
 

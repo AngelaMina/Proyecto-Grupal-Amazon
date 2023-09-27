@@ -1,4 +1,6 @@
-##### CONSULTORA AGCE
+<div align="center">
+  <h1>AGCE DATA CONSULTING</h1>
+</div>
 
 ## CLIENTE
 
@@ -18,13 +20,13 @@ En un mundo donde los datos son esenciales, estamos construyendo una arquitectur
 
 Desarrollar y desplegar un sistema de recomendación de productos basados en análisis de datos, inteligencia artificial y análisis de sentimiento de reseñas, utilizando los datos históricos de Amazon, con el propósito de mejorar significativamente la experiencia del cliente y aumentar las ventas, manteniendo así el propósito de liderazgo de Amazon en el mercado.
 
-# OBEJTIVOS ESPECIFICOS
+## OBEJTIVOS ESPECIFICOS
 
 - Diseñar una arquitectura de datos escalable para analizar grandes volúmenes de datos de Amazon, incluyendo reseñas y metadatos de productos.
 - Desarrollar modelos de inteligencia artificial y análisis de sentimiento para comprender las opiniones de los clientes y generar recomendaciones de productos personalizadas. 
 - Implementar un sistema de recomendación de productos en la categoría hogar, alineado con las tendencias actuales, basado en historiales de compras y análisis de sentimiento, con el fin de aumentar la satisfacción del cliente y las ventas.
 
-# PROCESO
+## PROCESO
 
 * Primera Semana
 
@@ -34,7 +36,7 @@ Desarrollar y desplegar un sistema de recomendación de productos basados en an�
 - Creación de un diccionario de datos: Se elaboró un diccionario que documenta la estructura y características de los datos.
 - Carga de datos en la nube de Azure: Para dar forma a la arquitectura del proyecto, se llevaron a cabo las operaciones necesarias para cargar los datos en la plataforma de Azure.
 
-# PARTES INTERESADAS 
+## PARTES INTERESADAS 
 
 •	Amazon
 

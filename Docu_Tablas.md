@@ -84,14 +84,14 @@ Además, para facilitar el análisis, podríamos considerar las siguientes trans
 Se renombrarán las columnas de los diferentes datasets utilizando el formato "snake_case". Además, se renombrarán las siguientes columnas para mantener la homogeneidad de la base de datos.
 
 **Tablas de Reviews**
-- reviewer_id = reviewer_id
-- product_id = product_id
-- reviewer_name = reviewer_name
-- review_text = review_text
-- unix_review_time = unix_review_time
-- review_time = review_time
+- reviewerID = reviewer_id
+- asin = product_id
+- reviewerName = reviewer_name
+- reviewText = review_text
+- unixReviewTime = unix_review_time
+- reviewTime = review_time
 
 **Tablas de Metadata**
-- product_id = product_id
-- sales_rank = sales_rank
-- img_url = img_url
+- asin = product_id
+- salesRank = sales_rank
+- imUrl = img_url

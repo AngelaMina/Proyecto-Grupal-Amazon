@@ -16,6 +16,9 @@ En un mundo donde los datos son esenciales, estamos construyendo una arquitectur
   <img src="https://github.com/AngelaMina/Proyecto-Grupal-Amazon/blob/main/Imagenes/LogoconsultoraPNG.PNG" alt="logoconsultoria">
 </div>
 
+![Logo GitHub](https://github.com/AngelaMina/Proyecto-Grupal-Amazon/assets/132381850/b83b54fb-3dc3-4d4f-a808-659b1cb86846)
+
+
 ## OBJETIVOS
 
 # OBEJETIVO GENERAL

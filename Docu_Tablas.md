@@ -86,12 +86,15 @@ Se renombrarán las columnas de los diferentes datasets utilizando el formato "s
 **Tablas de Reviews**
 - reviewerID = reviewer_id
 - asin = product_id
-- reviewerName = reviewer_name
+- overall = product_score
 - reviewText = review_text
-- unixReviewTime = unix_review_time
 - reviewTime = review_time
+- reviewerName = reviewer_name
 
 **Tablas de Metadata**
 - asin = product_id
-- salesRank = sales_rank
-- imUrl = img_url
+- brand = product_brand
+- main_cat = main_category
+- title = product_name
+- price = product_price
+- imUrl = product_imurl

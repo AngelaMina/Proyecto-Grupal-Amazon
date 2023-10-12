@@ -1,29 +1,7 @@
-from pyspark.sql import SparkSession
-from pyspark.sql.functions import udf
-from pyspark.sql.types import IntegerType
-from pyspark.ml.feature import Tokenizer, StopWordsRemover, StringIndexer
-from pyspark.ml.feature import HashingTF, IDF
-from pyspark.ml import Pipeline
-from pyspark.ml.recommendation import ALS
-from pyspark.sql.functions import lit
-from pyspark.sql.functions import monotonically_increasing_id
-from pyspark.sql.functions import col
-from pyspark.sql.functions import desc
-from pyspark.sql.functions import expr
-import shutil
-
 # Función para iniciar una sesión de Spark
 def iniciar_sesion_spark():
     spark = SparkSession.builder.appName("Recommend").getOrCreate()
     return spark
-
-# Función para obtener recomendaciones usando ALS
-def obtener_recomendaciones_als(spark, product_id_input):
-    # Importar biblioteca para la base de datos
-    import pyodbc
-    # Tu lógica para obtener recomendaciones con ALS
-    recommendations = "Aquí debería estar el resultado de las recomendaciones"  # Reemplaza con el valor real
-    return recommendations
 
 # Función para obtener recomendaciones usando ALS
 def obtener_recomendaciones_als(spark, product_id_input):

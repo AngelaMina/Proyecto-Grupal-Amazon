@@ -4,14 +4,8 @@ import streamlit as st
 import requests
 from streamlit_lottie import st_lottie
 from PIL import Image
-from finall import obtener_recomendaciones_als
-
-from pyspark.sql import SparkSession
-
-spark = SparkSession.builder \
-    .appName("Recommend") \
-    .config("spark.some.config.option", "config-value") \
-    .getOrCreate()
+from finall import obtener_recomendaciones_als #modelo
+from pyspark.sql import SparkSession           #modelo
 
 
 st.set_page_config(page_title="AGEC Data Consulting", page_icon="🤖", layout="wide")

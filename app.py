@@ -100,7 +100,7 @@ with st.container():
       """El análisis de datos es esencial para nuestra plataforma, ya que nos permite recopilar, analizar y comprender información valiosa sobre los negocios. Esta información respalda decisiones informadas que pueden impulsar mejoras en el éxito de los negocios. Utilizamos el análisis de datos para comprender el comportamiento de los clientes, identificar oportunidades de crecimiento y optimizar la eficiencia, lo que, a su vez, puede aumentar las ventas, mejorar el servicio al cliente y reducir los costos.
       """
       )
-      st.write("[Ver Dashboard >](https://www.youtube.com/watch?v=zeS2FlxF_0s&ab_channel=Dr.Xabi)")
+      st.write("[Ver Dashboard >](https://app.powerbi.com/groups/me/reports/ac323460-6e6f-4189-b21a-2c3e603423e6/ReportSection?experience=power-bi)")
 
 # 5 contenedor
 

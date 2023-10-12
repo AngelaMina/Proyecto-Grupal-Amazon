@@ -7,6 +7,10 @@ from PIL import Image
 from finall import obtener_recomendaciones_als #modelo
 from pyspark.sql import SparkSession           #modelo
 
+spark = SparkSession.builder \
+    .appName("finall.py") \
+    .getOrCreate()
+
 
 st.set_page_config(page_title="AGEC Data Consulting", page_icon="🤖", layout="wide")
 

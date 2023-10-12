@@ -6,6 +6,7 @@ from streamlit_lottie import st_lottie
 from PIL import Image
 from finall import obtener_recomendaciones_als
 
+
 st.set_page_config(page_title="AGEC Data Consulting", page_icon="🤖", layout="wide")
 
 # fución para nuestra animación

@@ -6,6 +6,13 @@ from streamlit_lottie import st_lottie
 from PIL import Image
 from finall import obtener_recomendaciones_als
 
+from pyspark.sql import SparkSession
+
+spark = SparkSession.builder \
+    .appName("Recommend") \
+    .config("spark.some.config.option", "config-value") \
+    .getOrCreate()
+
 
 st.set_page_config(page_title="AGEC Data Consulting", page_icon="🤖", layout="wide")
 
@@ -144,7 +151,13 @@ with st.container():
         else:
             st.write("Productos recomendados:")
             st.dataframe(recommended_products)
+
+    # Botón para limpiar la salida
+    if st.button("Limpiar"):
+        user_input = ""
+        st.markdown("")            
             
+    
 # 7 contenedor
 
 with st.container():

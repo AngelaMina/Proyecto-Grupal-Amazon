@@ -6,9 +6,6 @@ from streamlit_lottie import st_lottie
 from PIL import Image
 from finall import iniciar_sesion_spark, obtener_recomendaciones_als #modelo
 
-# Crear una sesión de Spark al inicio de la aplicación
-spark = iniciar_sesion_spark()
-
 
 st.set_page_config(page_title="AGEC Data Consulting", page_icon="🤖", layout="wide")
 

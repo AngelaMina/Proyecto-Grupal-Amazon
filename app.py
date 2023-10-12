@@ -4,7 +4,7 @@ import streamlit as st
 import requests
 from streamlit_lottie import st_lottie
 from PIL import Image
-from finall import obtener_recomendaciones_als, iniciar_sesion_spark #modelo
+from finall import iniciar_sesion_spark, obtener_recomendaciones_als #modelo
 
 # Crear una sesión de Spark al inicio de la aplicación
 spark = iniciar_sesion_spark()
@@ -135,18 +135,23 @@ with st.container():
 
     st.header("SISTEMA DE RECOMEDACIÓN")
     
-    # Agregar un campo de entrada para que el usuario escriba el producto de entrada
-    product_id_input = st.text_input("Introduce el ID del producto de entrada:", "producto_ejemplo")
+    # Código para interactuar con las funciones importadas
+    user_input = st.text_input('Introduce algún dato de entrada:')
 
-    if st.button("Obtener recomendaciones"):
-        # Llamar a la función obtener_recomendaciones_als dentro de este contenedor
-        recommended_products = obtener_recomendaciones_als(spark, product_id_input)
+    # Botón para iniciar la sesión Spark
+    if st.button('Iniciar Sesión Spark'):
+        # Llama a la función para iniciar la sesión Spark
+        spark_session = iniciar_sesion_spark()
 
-        if recommended_products == "Producto no encontrado en los datos.":
-            st.write(recommended_products)
-        else:
-            st.write("Productos recomendados:")
-            st.dataframe(recommended_products)
+    # Botón para obtener recomendaciones
+    if st.button('Obtener Recomendaciones'):
+        # Llama a la función para obtener recomendaciones ALS
+        product_id = user_input  # Puedes ajustar el valor de product_id según tu aplicación
+        recommendations = obtener_recomendaciones_als(spark_session, product_id)
+    
+    # Muestra las recomendaciones
+    st.subheader('Recomendaciones:')
+    st.write(recommendations)  # Personaliza cómo se muestran las recomendaciones
 
     # Botón para limpiar la salida
     if st.button("Limpiar"):

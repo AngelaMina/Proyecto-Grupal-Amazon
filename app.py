@@ -26,13 +26,13 @@ email_address ="emailcontact@gmail.com"
 #  variables
 
 lottie_coding = load_lottieurl("https://lottie.host/d7fa2755-5843-47b9-b185-e666b47ed7ca/0CRGQXx2WO.json")
-imagen_logo = Image.open("imagenes/logoconsultora.PNG")
+imagen_logo = Image.open("imagenes/Logo.PNG")
 lottie_figureone = load_lottieurl("https://lottie.host/b4ed557d-cf42-455b-848f-5ff480e070e8/drOD2LHJWF.json") 
 lottie_figuretwo = load_lottieurl("https://lottie.host/2a42fc01-a2c1-4f0a-8bc2-c18a86b656ad/tDhOCvUAeQ.json")
 imagen_azure = Image.open("imagenes/entorno.PNG")
 imagen_power = Image.open("imagenes/power_bi.PNG")
 imagen_streamlit = Image.open("imagenes/streamlit.PNG")
-imagen_angela = Image.open("imagenes\Angela.PNG")
+imagen_angela = Image.open("imagenes/Angela.PNG")
 imagen_cristhian = Image.open("imagenes/Cristhian.PNG")
 imagen_esteban = Image.open("imagenes/Esteban.PNG")
 imagen_gaston =Image.open("imagenes/Gaston.PNG")
@@ -128,8 +128,7 @@ with st.container():
 with st.container():
     st.write("---")
 
-    st.header("SISTEMA DE RECOMEDACIÓN1")
-
+    st.header("SISTEMA DE RECOMEDACIÓN")
 # 7 contenedor
 
 with st.container():

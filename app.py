@@ -4,6 +4,7 @@ import streamlit as st
 import requests
 from streamlit_lottie import st_lottie
 from PIL import Image
+from finall import obtener_recomendaciones_als
 
 st.set_page_config(page_title="AGEC Data Consulting", page_icon="🤖", layout="wide")
 
@@ -129,6 +130,20 @@ with st.container():
     st.write("---")
 
     st.header("SISTEMA DE RECOMEDACIÓN")
+    
+    # Agregar un campo de entrada para que el usuario escriba el producto de entrada
+    product_id_input = st.text_input("Introduce el ID del producto de entrada:", "producto_ejemplo")
+
+    if st.button("Obtener recomendaciones"):
+        # Llamar a la función obtener_recomendaciones_als dentro de este contenedor
+        recommended_products = obtener_recomendaciones_als(product_id_input)
+
+        if recommended_products == "Producto no encontrado en los datos.":
+            st.write(recommended_products)
+        else:
+            st.write("Productos recomendados:")
+            st.dataframe(recommended_products)
+            
 # 7 contenedor
 
 with st.container():

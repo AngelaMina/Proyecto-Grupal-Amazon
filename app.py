@@ -132,28 +132,32 @@ with st.container():
 
     st.header("SISTEMA DE RECOMEDACIÓN")
     
-    # Código para interactuar con las funciones importadas
-    user_input = st.text_input('Introduce algún dato de entrada:')
+# Código para interactuar con las funciones importadas
+user_input = st.text_input('Introduce algún dato de entrada:')
 
-    # Botón para iniciar la sesión Spark
-    if st.button('Iniciar Sesión Spark'):
-        # Llama a la función para iniciar la sesión Spark
-        spark_session = iniciar_sesion_spark()
+# Botón para iniciar la sesión Spark
+if st.button('Iniciar Sesión Spark'):
+    # Llama a la función para iniciar la sesión Spark
+    spark_session = iniciar_sesion_spark()
 
-    # Botón para obtener recomendaciones
-    if st.button('Obtener Recomendaciones'):
+# Botón para obtener recomendaciones
+if st.button('Obtener Recomendaciones'):
+    if spark_session is not None:
         # Llama a la función para obtener recomendaciones ALS
         product_id = user_input  # Puedes ajustar el valor de product_id según tu aplicación
         recommendations = obtener_recomendaciones_als(spark_session, product_id)
-    
-    # Muestra las recomendaciones
-    st.subheader('Recomendaciones:')
-    st.write(recommendations)  # Personaliza cómo se muestran las recomendaciones
 
-    # Botón para limpiar la salida
-    if st.button("Limpiar"):
-        user_input = ""
-        st.markdown("")            
+        # Muestra las recomendaciones
+        st.subheader('Recomendaciones:')
+        st.write(recommendations)  # Personaliza cómo se muestran las recomendaciones
+    else:
+        st.write("Primero debes iniciar la sesión de Spark antes de obtener recomendaciones.")
+
+# Botón para limpiar la salida
+if st.button("Limpiar"):
+    user_input = ""
+    st.markdown("")
+           
             
     
 # 7 contenedor

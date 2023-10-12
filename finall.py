@@ -21,6 +21,14 @@ def iniciar_sesion_spark():
 def obtener_recomendaciones_als(spark, product_id_input):
     # Importar biblioteca para la base de datos
     import pyodbc
+    # Tu lógica para obtener recomendaciones con ALS
+    recommendations = "Aquí debería estar el resultado de las recomendaciones"  # Reemplaza con el valor real
+    return recommendations
+
+# Función para obtener recomendaciones usando ALS
+def obtener_recomendaciones_als(spark, product_id_input):
+    # Importar biblioteca para la base de datos
+    import pyodbc
 
     # Configurar la información de la base de datos
     jdbcHostname = "amazonhenry.database.windows.net"

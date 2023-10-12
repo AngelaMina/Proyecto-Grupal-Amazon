@@ -4,12 +4,10 @@ import streamlit as st
 import requests
 from streamlit_lottie import st_lottie
 from PIL import Image
-from finall import obtener_recomendaciones_als #modelo
-from pyspark.sql import SparkSession           #modelo
+from finall import obtener_recomendaciones_als, iniciar_sesion_spark #modelo
 
-spark = SparkSession.builder \
-    .appName("finall.py") \
-    .getOrCreate()
+# Crear una sesión de Spark al inicio de la aplicación
+spark = iniciar_sesion_spark()
 
 
 st.set_page_config(page_title="AGEC Data Consulting", page_icon="🤖", layout="wide")
@@ -142,7 +140,7 @@ with st.container():
 
     if st.button("Obtener recomendaciones"):
         # Llamar a la función obtener_recomendaciones_als dentro de este contenedor
-        recommended_products = obtener_recomendaciones_als(product_id_input)
+        recommended_products = obtener_recomendaciones_als(spark, product_id_input)
 
         if recommended_products == "Producto no encontrado en los datos.":
             st.write(recommended_products)

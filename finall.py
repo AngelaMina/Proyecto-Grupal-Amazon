@@ -12,11 +12,13 @@ from pyspark.sql.functions import desc
 from pyspark.sql.functions import expr
 import shutil
 
-
-def obtener_recomendaciones_als(product_id_input):
-    # Iniciar una sesión de Spark
+# Función para iniciar una sesión de Spark
+def iniciar_sesion_spark():
     spark = SparkSession.builder.appName("Recommend").getOrCreate()
+    return spark
 
+# Función para obtener recomendaciones usando ALS
+def obtener_recomendaciones_als(spark, product_id_input):
     # Importar biblioteca para la base de datos
     import pyodbc
 
@@ -32,9 +34,9 @@ def obtener_recomendaciones_als(product_id_input):
 
     # Propiedades de conexión
     connectionProperties = {
-      "user": username,
-      "password": password,
-      "driver": "com.microsoft.sqlserver.jdbc.SQLServerDriver"
+        "user": username,
+        "password": password,
+        "driver": "com.microsoft.sqlserver.jdbc.SQLServerDriver"
     }
 
     # Consulta SQL
@@ -68,7 +70,7 @@ def obtener_recomendaciones_als(product_id_input):
     # Ajustar el modelo ALS
     model = als.fit(df)
 
-    # Obtener el producto_nro_alias para el producto de entrada
+    # Obtener el product_nro_alias para el product_id de entrada
     product_nro_alias = df.filter(col("product_id") == product_id_input).select("product_nro_alias").collect()
 
     if product_nro_alias:

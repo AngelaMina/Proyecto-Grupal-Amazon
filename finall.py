@@ -1,3 +1,6 @@
+from pyspark.sql import SparkSession
+
+
 # Función para iniciar una sesión de Spark
 def iniciar_sesion_spark():
     spark = SparkSession.builder.appName("Recommend").getOrCreate()

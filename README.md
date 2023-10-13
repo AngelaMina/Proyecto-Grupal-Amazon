@@ -2,7 +2,7 @@
   <h1>AGEC DATA CONSULTING</h1>
 </div>
 
-div align="center">
+<div align="center">
   <img src="https://github.com/AngelaMina/Proyecto-Grupal-Amazon/assets/132381850/b83b54fb-3dc3-4d4f-a808-659b1cb86846" alt="Logo GitHub">
 </div>
 
@@ -10,15 +10,15 @@ div align="center">
   <a href="https://agecdata.azurewebsites.net/">Nuestra Página Web</a>
 </div>
 
+Este proyecto es una oportunidad desafiante, en la cual nuestro tesoro son los datos históricos de Amazon, compuesto por millones de reseñas y metadatos de productos, todo esto para impulsar a la empresa hacia un futuro de mas ventas exitosas. Nuestra misión es fusionar la analítica de ventas y las reseñas con la magia de la inteligencia artificial, con el objetivo de desarrollar un sistema de recomendación de productos que no solo encante a los clientes, sino que también contribuya a mejorar el rendimiento general de Amazon.
+
+
 ## NUESTRO CLIENTE
 
 
 <div align="center">
   <img src="https://github.com/AngelaMina/Proyecto-Grupal-Amazon/blob/main/imagenes/logoamazon.PNG" alt="Logo Amazon">
 </div>
-
-Este proyecto es una oportunidad desafiante, en la cual nuestro tesoro son los datos históricos de Amazon, compuesto por millones de reseñas y metadatos de productos, todo esto para impulsar a la empresa hacia un futuro de mas ventas exitosas. Nuestra misión es fusionar la analítica de ventas y las reseñas con la magia de la inteligencia artificial, con el objetivo de desarrollar un sistema de recomendación de productos que no solo encante a los clientes, sino que también contribuya a mejorar el rendimiento general de Amazon.
-
 
 ## OBJETIVOS
 

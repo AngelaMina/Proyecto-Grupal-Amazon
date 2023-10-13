@@ -44,7 +44,7 @@ Interfaz de usuarios: Crear una interfaz que permita a los usuarios recibir reco
 ARQUITECTURA DE DATOS
 Optamos por llevar a cabo nuestro proyecto aprovechando las ventajas de los servicios en la nube de Azure, mediante su capa gratuita que proporciona un bono de 200 USD para utilizar en distintos servicios ofrecidos por este proveedor. Para estructurar nuestro enfoque, hemos categorizado las herramientas en tres clasificaciones principales: almacenamiento, procesamiento y visualización, cada una desempeñando un papel fundamental en el desarrollo y éxito de nuestro proyecto.
 
-![aruitecturadedatos]()
+![aruitecturadedatos](https://github.com/AngelaMina/Proyecto-Grupal-Amazon/blob/main/imagenes/arquitecturadedatos.png)
 
 Almacenamiento:
 

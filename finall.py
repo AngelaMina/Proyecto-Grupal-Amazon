@@ -1,4 +1,16 @@
 from pyspark.sql import SparkSession
+from pyspark.sql.functions import udf
+from pyspark.sql.types import IntegerType
+from pyspark.ml.feature import Tokenizer, StopWordsRemover, StringIndexer
+from pyspark.ml.feature import HashingTF, IDF
+from pyspark.ml import Pipeline
+from pyspark.ml.recommendation import ALS
+from pyspark.sql.functions import lit
+from pyspark.sql.functions import monotonically_increasing_id
+from pyspark.sql.functions import col
+from pyspark.sql.functions import desc
+from pyspark.sql.functions import expr
+import shutil
 
 
 # Función para iniciar una sesión de Spark

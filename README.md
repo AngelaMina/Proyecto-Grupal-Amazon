@@ -6,7 +6,7 @@
 
 ### AMAZON
 
-![logoamazon](https://github.com/AngelaMina/Proyecto-Grupal-Amazon/blob/main/Imagenes/Logoamazon.PNG)
+![logoamazon](https://github.com/AngelaMina/Proyecto-Grupal-Amazon/blob/main/imagenes/logoamazon.PNG)
 
 Este proyecto es una oportunidad desafiante, en la cual nuestro tesoro son los datos históricos de Amazon, compuesto por millones de reseñas y metadatos de productos, todo esto para impulsar a la empresa hacia un futuro de mas ventas exitosas. Nuestra misión es fusionar la analítica de ventas y las reseñas con la magia de la inteligencia artificial, con el objetivo de desarrollar un sistema de recomendación de productos que no solo encante a los clientes, sino que también contribuya a mejorar el rendimiento general de Amazon.
 
@@ -28,7 +28,7 @@ Nuestra meta es clara: desarrollar e implementar un sistema de recomendación de
 
 ## DASHBOARD DE NUESTRO CLIENTE AMAZON
 
-![dashboard]()
+![dashboard](https://github.com/AngelaMina/Proyecto-Grupal-Amazon/blob/main/imagenes/dashboard.png)
 
 [Ver Dashboard](https://app.powerbi.com/groups/me/reports/ac323460-6e6f-4189-b21a-2c3e603423e6/ReportSection?experience=power-bi)
 

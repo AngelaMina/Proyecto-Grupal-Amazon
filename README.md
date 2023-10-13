@@ -8,51 +8,75 @@
 
 ![logoamazon](https://github.com/AngelaMina/Proyecto-Grupal-Amazon/blob/main/Imagenes/Logoamazon.PNG)
 
-Amazon, un líder indiscutible en innovación y satisfacción del cliente, busca mantener su posición destacada en el mercado estadounidense al colaborar con nuestra consultora. Este proyecto aprovecha los datos históricos de Amazon, incluyendo millones de reseñas y metadatos, para impulsar futuras ventas y mejoras. Nuestra misión es fusionar la analítica de ventas y reseñas con la inteligencia artificial, creando un sistema de recomendación que mejore la experiencia del cliente y aumente las ventas. Este sistema personalizado se basa en datos de usuario y utiliza avanzados análisis de sentimientos y modelos inteligentes.
-
-En un mundo donde los datos son esenciales, estamos construyendo una arquitectura de datos sólida. Con pipelines eficientes y un dashboard informativo, permitimos decisiones informadas, incluso al manejar grandes volúmenes de datos. Nos enfocamos en la categoría hogar, considerada clave para aumentar las ventas, y adaptamos nuestras estrategias según las tendencias del mercado. Este proyecto promete innovación y éxito en un mercado competitivo.
+Este proyecto es una oportunidad desafiante, en la cual nuestro tesoro son los datos históricos de Amazon, compuesto por millones de reseñas y metadatos de productos, todo esto para impulsar a la empresa hacia un futuro de mas ventas exitosas. Nuestra misión es fusionar la analítica de ventas y las reseñas con la magia de la inteligencia artificial, con el objetivo de desarrollar un sistema de recomendación de productos que no solo encante a los clientes, sino que también contribuya a mejorar el rendimiento general de Amazon.
 
 ![Logo GitHub](https://github.com/AngelaMina/Proyecto-Grupal-Amazon/assets/132381850/b83b54fb-3dc3-4d4f-a808-659b1cb86846)
+
+[Nuestra Pagina Web](https://agecdata.azurewebsites.net/)
 
 ## OBJETIVOS
 
 # OBEJETIVO GENERAL
 
-Desarrollar y desplegar un sistema de recomendación de productos basados en análisis de datos, inteligencia artificial y análisis de sentimiento de reseñas, utilizando los datos históricos de Amazon, con el propósito de mejorar significativamente la experiencia del cliente y aumentar las ventas, manteniendo así el propósito de liderazgo de Amazon en el mercado.
+Nuestra meta es clara: desarrollar e implementar un sistema de recomendación de productos basado en análisis de datos, inteligencia artificial y análisis de sentimiento de reseñas utilizando los datos históricos de Amazon. Buscamos no solo enriquecer la experiencia del cliente, sino también potenciar el liderazgo de Amazon en el mercado a través de un aumento significativo en las ventas.
 
 ## OBEJTIVOS ESPECIFICOS
 
-- Diseñar una arquitectura de datos escalable para analizar grandes volúmenes de datos de Amazon, incluyendo reseñas y metadatos de productos.
-- Desarrollar modelos de inteligencia artificial y análisis de sentimiento para comprender las opiniones de los clientes y generar recomendaciones de productos personalizadas. 
-- Implementar un sistema de recomendación de productos en la categoría hogar, alineado con las tendencias actuales, basado en historiales de compras y análisis de sentimiento, con el fin de aumentar la satisfacción del cliente y las ventas.
+- Diseñar una arquitectura de datos escalable para analizar los extensos volúmenes de información de Amazon, incluyendo reseñas y metadatos de productos.
+- Desarrollar modelos de inteligencia artificial y análisis de sentimiento para comprender las opiniones de los clientes y generar recomendaciones de productos personalizadas.
+- Implementar un sistema de recomendación de productos en la categoría hogar, que se alinee con las tendencias actuales, basado en historiales de compras y análisis de sentimiento, con el fin de mejorar la satisfacción del cliente y aumentar las ventas.
 
-## PROCESO
+## DASHBOARD DE NUESTRO CLIENTE AMAZON
 
-* Primera Semana
+![dashboard]()
 
-- Carga inicial de datos: Se realizó una carga delta de los datos.
-- Análisis Exploratorio de Datos (EDA): En una primera fase, se trabajó desde un entorno local utilizando Python en Visual Studio Code. Los archivos se cargaron en formato JSON con el propósito de identificar los tipos de datos presentes y evaluar su calidad.
-- ETL (Extract, Transform, Load): Siguiendo los objetivos establecidos, se procedió a realizar las transformaciones necesarias para obtener datos limpios y normalizados.
-- Creación de un diccionario de datos: Se elaboró un diccionario que documenta la estructura y características de los datos.
-- Carga de datos en la nube de Azure: Para dar forma a la arquitectura del proyecto, se llevaron a cabo las operaciones necesarias para cargar los datos en la plataforma de Azure.
+[Ver Dashboard](https://app.powerbi.com/groups/me/reports/ac323460-6e6f-4189-b21a-2c3e603423e6/ReportSection?experience=power-bi)
+
+## HERRAMIENTAS USADAS
+
+Python: Nuestro aliado mágico en el análisis de datos y algoritmos de aprendizaje automático.
+
+Azure Data Lake Storage Blob Storage: El guardián de los inmensos volúmenes de datos a lo largo del proyecto. Su escalabilidad fue fundamental para gestionar de manera eficiente una gran cantidad de información en diversas etapas.
+
+Azure SQL Database: La base de datos relacional en la nube, que es esencial para el data warehouse. Almacena datos limpios y estructurados, permitiéndonos trabajar de manera efectiva y crear herramientas de visualización.
+
+Procesamiento:
+
+Azure Databricks: Utilizamos esta plataforma colaborativa basada en Apache Spark para limpiar, transformar y analizar datos a gran escala.
+
+Azure Data Factory: Orquesta y automatiza el flujo de datos, garantizando la gestión eficiente de la ingesta, preparación y transformación de datos.
+
+Databricks Machine Learning: Creamos modelos de machine learning a gran escala, entrenándolos con conjuntos extensos de datos, mejorando nuestras capacidades predictivas.
+
+Visualización:
+
+Streamleat (Web Framework): Potenciamos la capa de visualización con este sólido framework web, que facilita la presentación de datos de manera intuitiva y atractiva.
+
+Power BI: Creamos dashboards dinámicos e informes visuales. Su integración con Azure y opciones de visualización ayudaron a transformar datos en información comprensible. Combinado con Streamleat, ofreció una experiencia completa de visualización.
 
 ## PARTES INTERESADAS 
 
-•	Amazon
+• Amazon
 
-- Descripción: Amazon es el cliente principal y el patrocinador del proyecto. Esta interesado en obtener información valiosa de los datos históricos para mejorar sus estrategias de ventas y retención de clientes.
-- Responsabilidades: Proporcionar acceso a los datos, definir requisitos y expectativas, colaborar en la implementación de las recomendaciones resultantes
+- Descripción: Amazon es el cliente principal y el patrocinador del proyecto. Está ansioso por obtener información valiosa de los datos históricos para mejorar sus estrategias de ventas y retención de clientes.
+- Responsabilidades: Proporcionar acceso a los datos, definir requisitos y expectativas, colaborar en la implementación de las recomendaciones resultantes.
 
-•	Usuarios Finales
+• Usuarios Finales
 
-- Descripción: Los usuarios finales son los clientes de Amazon que se beneficiaran directamente de las recomendaciones de productos. Esto incluye a los compradores en línea que utilizan la plataforma de Amazon para realizar las compras.
-- Responsabilidades: Proporcionar datos en forma de reseñas y patrones de compra, así como interactuar con los sistemas de recomendación una vez implementado. Sus comentarios y reacciones son esenciales para evaluar la eficiencia del sistema.
+- Descripción: Los usuarios finales son los clientes de Amazon que se beneficiarán directamente de las recomendaciones de productos. Esto incluye a los compradores en línea que utilizan la plataforma de Amazon para realizar compras.
+- Responsabilidades: Proporcionar datos en forma de reseñas y patrones de compra, así como interactuar con los sistemas de recomendación una vez implementados. Sus comentarios y reacciones son esenciales para evaluar la eficacia del sistema.
 
-•	Consultora (nosotros):
+• Consultora (nosotros):
 
 - Descripción: Nuestra consultora es la entidad responsable de la ejecución del proyecto. Tenemos la responsabilidad de diseñar, desarrollar e implementar el sistema de recomendación y entregar informes y resultados a Amazon.
-- Responsabilidades: Planificar y ejecutar el proyecto de acuerdo con los requisitos establecidos, gestionar recursos, garantizar la calidad de los entregables y cumplir con los plazos. 
+- Responsabilidades: Planificar y ejecutar el proyecto de acuerdo con los requisitos establecidos, gestionar recursos, garantizar la calidad de los entregables y cumplir con los plazos.
 
+## RECOMENDACIONES
 
+- Diseñar estrategias que impulsen el aumento de reseñas de usuarios para productos de la categoría Patio Lawn and Garden, ya que es la categoría con menor cantidad de reseñas en comparación con los últimos 10 años de análisis.
+
+- Ampliar la oferta de productos de las marcas "OXO" y "Cusinar", dado que mantienen una tendencia positiva y constante para los usuarios a lo largo de los años en la categoría Home and Kitchen.
+
+- Aumentar la oferta de productos relacionados con snacks y alimentos para mascotas, especialmente de las marcas "KONG" y "PetSafe", ya que se mantienen como las mejores marcas con comentarios positivos.
 
 
